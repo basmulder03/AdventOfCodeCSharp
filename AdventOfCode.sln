@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode", "AdventOfCode\AdventOfCode.csproj", "{7D604785-71BD-4F57-A25E-5A62B1330D1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{63CE68EB-74F3-431B-AF2F-CD310587F64D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2015", "2015\2015.csproj", "{44C098CA-C755-4D1F-981B-EB621C042174}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D604785-71BD-4F57-A25E-5A62B1330D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D604785-71BD-4F57-A25E-5A62B1330D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D604785-71BD-4F57-A25E-5A62B1330D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D604785-71BD-4F57-A25E-5A62B1330D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63CE68EB-74F3-431B-AF2F-CD310587F64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63CE68EB-74F3-431B-AF2F-CD310587F64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63CE68EB-74F3-431B-AF2F-CD310587F64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63CE68EB-74F3-431B-AF2F-CD310587F64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44C098CA-C755-4D1F-981B-EB621C042174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C098CA-C755-4D1F-981B-EB621C042174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C098CA-C755-4D1F-981B-EB621C042174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44C098CA-C755-4D1F-981B-EB621C042174}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DB0A0BE-88CC-4B42-8425-2AD1167BDFCE}
+	EndGlobalSection
+EndGlobal
