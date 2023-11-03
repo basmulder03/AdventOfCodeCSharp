@@ -43,5 +43,10 @@ namespace Shared.Helpers
         {
             return this.MemberwiseClone();
         }
+
+        public override string ToString()
+        {
+            return $"X: {X} Y: {Y}";
+        }
     }
 }
