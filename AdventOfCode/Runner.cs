@@ -10,7 +10,7 @@
                 var day = solutions.ElementAtOrDefault(counter);
                 var dayString = $"day{counter + 1}";
                 var data = solution.LoadData(dayString, testData);
-                Console.WriteLine($"Executing Day {counter} of {solutions.Count()}");
+                Console.WriteLine($"Executing Day {counter + 1} of {solutions.Count()}");
                 if (day != null)
                 {
                     Run(day, data);
