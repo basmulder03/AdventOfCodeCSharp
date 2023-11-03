@@ -6,6 +6,7 @@ var days = new List<IDaySolution> {
     new Day2(),
     new Day3(),
     new Day4(),
+    new Day5(),
 };
 
-Runner.Run(days, false);
+Runner.Run(days, 5, false);
