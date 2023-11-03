@@ -14,7 +14,7 @@ namespace _2015.days
                 'v' => new Coordinate<int> { X = toMove.X, Y = toMove.Y - 1 },
                 '<' => new Coordinate<int> { X = toMove.X - 1, Y = toMove.Y },
                 _ => toMove
-            }; ;
+            };
         }
 
         public void SolutionPart1(string data)
